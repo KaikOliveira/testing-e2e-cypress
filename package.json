@@ -1,0 +1,20 @@
+{
+  "name": "testing-e2e-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:web": "npx cypress open",
+    "test:headless": "npx cypress run --browser electron"
+  },
+  "type": "module",
+  "engines": {
+    "node": "v18.20.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.4.0"
+  }
+}
